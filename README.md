@@ -29,7 +29,7 @@ CNNs consist of the following sequential modules (each one may contain more than
 Our model is completely based on CNN model with various layers but there is a small change in it. We are neglecting the convolution layer over here and are using MobileNetV2 instead of it. MobileNetV2 is very fast when compared to convolution layer and also it is a very effective feature extractor for object detection and segmentation. We are basically creating a base model using MobileNetV2 and then we pass it into the head neural network.
 We are using layers like Pooing2D, Flatten, Dense, Dropout in the CNN
 
-![MODEL BLOCK DIG](https://user-images.githubusercontent.com/80860185/111623121-fb7b9780-880f-11eb-853c-d206503e8e29.png)
+![model-block-dig](https://user-images.githubusercontent.com/80860185/111623479-72b12b80-8810-11eb-8a67-354e96b64540.png)
 
 
 # RESULT
